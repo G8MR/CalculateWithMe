@@ -1,1 +1,1 @@
-window.location.replace("https://awesomeyoungcoder.github.io/CalculateWithMe/Main/");
+window.location.replace("https://g8mr.github.io/CalculateWithMe/Main/");
