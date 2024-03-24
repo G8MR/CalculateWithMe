@@ -2,14 +2,22 @@
     <title>CalculateWithMe</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="index.css"></link>
+    <link rel="stylesheet" href="buttons.css"></link>
+    <link rel="stylesheet" href="input.css"></link>
     <body>
         <div class = "numbers">
-            <input type="number" id="num1" placeholder="Enter number 1 here"></input><br><br>
-            <input type="number" id="num2" placeholder="Enter number 2 here"></input><br><br>
-            <button id="btn" type="button" onclick = "addition()" data-inline="true">Add</button><br><br>
-            <button id="btn" type="button" onclick = "subtraction()" data-inline="true">Subtract</button><br><br>
-            <button id="btn" type="button" onclick = "multiplication()" data-inline="true">Multiply</button><br><br>
-            <button id="btn" type="button" onclick = "division()" data-inline="true">Divide</button><br><br>
+            <div class = "input">
+                <input type="number" id="num1"></input>
+                <input type="number" id="num2"></input>
+            </div><br><br>
+            <div class = "btnset1">    
+                <button id="btn" type="button" onclick = "addition()" data-inline="true">+</button>
+                <button id="btn" type="button" onclick = "subtraction()" data-inline="true"> - </button>
+            </div><br><br>        
+            <div class = "btnset2">
+                <button id="btn" type="button" onclick = "multiplication()" data-inline="true">x</button>
+                <button id="btn" type="button" onclick = "division()" data-inline="true">÷</button>
+            </div><br><br>
             <p id="result"></p><br><br>
         </div>
     </body>
