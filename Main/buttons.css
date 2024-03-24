@@ -1,0 +1,25 @@
+#btn {
+    background-color: rgb(252, 148, 108);
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    transition-duration: 0.25s;
+    padding: 10px 16px;
+    font-size: 18px;
+  }
+  
+  #btn:hover{
+    background-color: rgb(255, 193, 168);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .btnset1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .btnset2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
