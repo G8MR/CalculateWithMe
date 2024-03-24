@@ -3,15 +3,14 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="index.css"></link>
     <body>
-        <img src= "bg.jpg" alt="bg pic" class= "mainpic"></Img>
+        <div class = "numbers">
+            <input type="number" id="num1" placeholder="Enter number 1 here"></input><br><br>
+            <input type="number" id="num2" placeholder="Enter number 2 here"></input><br><br>
+            <button id="btn" type="button" onclick = "addition()" data-inline="true">Add</button><br><br>
+            <button id="btn" type="button" onclick = "subtraction()" data-inline="true">Subtract</button><br><br>
+            <button id="btn" type="button" onclick = "multiplication()" data-inline="true">Multiply</button><br><br>
+            <button id="btn" type="button" onclick = "division()" data-inline="true">Divide</button><br><br>
+            <p id="result"></p><br><br>
+        </div>
     </body>
-    <div class = "numbers">
-        <input type="number" id="num1" placeholder="Enter number 1 here"></input><br><br>
-        <input type="number" id="num2" placeholder="Enter number 2 here"></input><br><br>
-        <button id="btn" type="button" onclick = "addition()" data-inline="true">Add</button><br><br>
-        <button id="btn" type="button" onclick = "subtraction()" data-inline="true">Subtract</button><br><br>
-        <button id="btn" type="button" onclick = "multiplication()" data-inline="true">Multiply</button><br><br>
-        <button id="btn" type="button" onclick = "division()" data-inline="true">Divide</button><br><br>
-        <p id="result"></p><br><br>
-    </div>
 </html>
